@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Div main*/
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin:30px 0 10px 0 ;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+}
+/*image*/
+img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 190px;
+    height: 190px;
+}
+
+/*Attribution*/
+
+.attribution{
+    margin: 30px 0 -50px 0;
+    font-size: 9px;
+    
+}
+a{
+    text-decoration: none;
+}
